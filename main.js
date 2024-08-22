@@ -116,7 +116,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n\n\n// import TodoList // module pattern\n// import Todo\n// import Project\n\nconsole.log('this is a test.')\n\n\n//# sourceURL=webpack://top-todo/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _todo_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./todo.js */ \"./src/todo.js\");\n\n\n\n\n\n// import Project\n\nlet TodoList = (function(){\n    //EXECUTED IMMEDIATELY. the 'manager', all of our functionality is through this mf\n\n    // get all projects method\n\n    // get the current projects todos method\n\n    // create new project method\n\n    // delete a project method\n\n    // create a todo method? perhaps this goes onto the project. perhaps this just calls the project in questions createTodo. takes a param of open project.\n\n    // delete a todo method\n\n    // projectList array containing the projects attribute, assigned to the getProjects method upon init.\n\n    // openproject attribute saves which project we are currently viewing. passed along to the createTodo method.\n    console.log(_todo_js__WEBPACK_IMPORTED_MODULE_1__.todo);\n})();\n\n\n//# sourceURL=webpack://top-todo/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/todo.js":
+/*!*********************!*\
+  !*** ./src/todo.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   todo: () => (/* binding */ todo)\n/* harmony export */ });\n// this will be a factory\n\nlet todo = 'Todo Factory.';\n\n\n\n//# sourceURL=webpack://top-todo/./src/todo.js?");
 
 /***/ })
 
