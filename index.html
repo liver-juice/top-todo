@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TodoList</title>
+    <title>Tadu</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,7 @@
 <script defer src="main.js"></script></head>
 <body>
     <div class="headerdiv">
-        Todo
+        Tadu
     </div>
     <div class="rightheaderdiv">
         useless information
@@ -29,10 +29,19 @@
         </div>
     </div>
     <div class="tododiv">
-        Todos
+        
     </div>
     <div class="buttonsdiv">
-        <button>Functional Button</button>
+        <div class="inputfields">
+            <input type="text" class="titleinput" placeholder="head">
+            <input type="text" class="descriptioninput" placeholder="body">
+            <select class="selectinput">
+                <option value="1">Low</option>
+                <option value="2">Med</option>
+                <option value="3">High</option>
+            </select>
+        </div>
+        <button class="createtodobutton">Create Todo</button>
     </div>
 </body>
 </html>
